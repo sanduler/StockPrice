@@ -5,12 +5,12 @@ import pandas as pd
 st.write("""
 # Simple Stock Price App 
 
-Shown are the stock closing price and volume of Google!
+Shown are the stock closing price and volume of MSFT!
 
 """)
 
 # define the tiker sybol
-symbolTicker = 'GOOGL'
+symbolTicker = 'MSFT'
 # get data on this ticker
 dataTicker = yf.Ticker(symbolTicker)
 # get the history of the prices for the ticker above
